@@ -45,36 +45,33 @@ function ContactForm() {
     }
 
     return (
-        <section className='contact-section'>
-            <h1 className='contact-header'>Contact Me</h1>
-            <form className='contact-form'>
-                <div className='input-section'>
-                    <div className='form-label'>
+        <div>
+            <div className='contact-section'>
+                <h1 className='contact-header'>Contact Me</h1>
+                <form className='contact-form'>
+                    <div className='input-section'>
                         <label htmlFor='name'>Name:</label>
+                        <input className="fill" type='text' defaultValue={name} onBlur={handleChange} name='name' placeholder='Your Name' />
                     </div>
-                    <input type='text' defaultValue={name} onBlur={handleChange} name='name' />
-                </div>
-                <div className='input-section'>
-                    <div className='form-label'>
+                    <div className='input-section'>
                         <label htmlFor='email'>Email:</label>
+                        <input className="fill" type='email' defaultValue={email} onBlur={handleChange} name='email' placeholder='youremail@test.com' />
                     </div>
-                    <input type='email' defaultValue={email} onBlur={handleChange} name='email' />
-                </div>
-                <div className='message-section'>
-                    <div className='message-label'>
+                    <div className='message-section'>
                         <label htmlFor='message'>Message:</label>
+                        <textarea className="fill" type='text' name='message' defaultValue={message} onBlur={handleChange} rows='5' placeholder='Reason for contacting...' />
                     </div>
-                    <textarea name='message' defaultValue={message} onBlur={handleChange} rows='5' />
-                </div>
-                {errorMessage && (
-                    <div className='error-message'>
-                        <p className='error-text'>{errorMessage}</p>
-                    </div>
-                )}
-                <button className='submit-btn' type='submit' onClick={handleSubmit}>Submit</button>
-            </form>
+                    {errorMessage && (
+                        <div className='error-message'>
+                            <p className='error-text'>{errorMessage}</p>
+                        </div>
+                    )}
+                    <button className='submit-btn' type='submit' onClick={handleSubmit}>Submit</button>
+                </form>
+            </div>
             <Footer />
-        </section>
+        </div>
+
     );
 }
 

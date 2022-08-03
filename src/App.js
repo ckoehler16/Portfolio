@@ -17,18 +17,18 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <html>
+    <div>
       <Header
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
-      <body>
+      <div className="main-content">
         {currentPage === 'About Me' && <About />}
         {currentPage === 'Portfolio' && <Projects />}
         {currentPage === 'Contact' && <Contact />}
         {currentPage === 'Resume' && <Resume />}
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }
 

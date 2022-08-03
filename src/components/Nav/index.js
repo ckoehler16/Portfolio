@@ -17,6 +17,9 @@ function Nav(props) {
             <p className={`link ${'Resume' === currentPage && 'nav-active'}`} id="resume">
                 <span className="nav-link" onClick={() => setCurrentPage('Resume')}>Resume</span>
             </p>
+            <p className={`link ${'Contact' === currentPage && 'nav-active'}`} id="contact">
+                <span className="nav-link" onClick={() => setCurrentPage('Contact')}>Contact</span>
+            </p>
         </nav>
     );
 }
