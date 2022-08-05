@@ -14,7 +14,7 @@ function Projects() {
                 <h1 className="projects-header">Portfolio</h1>
                 {/* <div className="intro-container">Click on an image to go to the project's live website.<br/> Click on the project's name to see the GitHub repository.</div> */}
                 <div className="projects-container">
-                    <div className="projects-section">
+                    {/* <div className="projects-section"> */}
                         <div className="project-item">
                             <a className="project" id="project1" href="https://bistro-box.herokuapp.com/home">
                                 <img className="image" src={bistrobox} alt="bistro-box" />
@@ -63,11 +63,12 @@ function Projects() {
                                 Timed Quiz &emsp;<img src="https://img.icons8.com/3d-fluency/40/000000/3d-fluency-github-logo.png" alt="" />
                             </a>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
+            </div>
+            <div className="footer-icons">
                 <Footer />
             </div>
-
         </>
     );
 }

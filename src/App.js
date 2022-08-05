@@ -1,4 +1,3 @@
-// import './App.css';
 import React, { useState } from 'react';
 import About from './components/About';
 import Header from './components/Header';
@@ -22,12 +21,12 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
-      <div className="main-content">
+      <main className="main-content">
         {currentPage === 'About Me' && <About />}
         {currentPage === 'Portfolio' && <Projects />}
         {currentPage === 'Contact' && <Contact />}
         {currentPage === 'Resume' && <Resume />}
-      </div>
+      </main>
     </div>
   );
 }

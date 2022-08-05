@@ -1,10 +1,13 @@
 import React from 'react';
 import Footer from '../Footer';
+import resume from '../../assets/Resume2-2022.pdf';
 
 function Resume() {
     return (
         <section className='resume-section'>
-            <h1 className='resume-header'>Download my resume</h1>
+            <h1 className='resume-header'>
+                View and download my resume <a id='resume-link' href={resume}>here</a>
+            </h1>
             <div className='resume-container'>
                 <div className='list-container'>
                     <h2 className='list-header'>Front End Skills</h2>

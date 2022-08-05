@@ -55,7 +55,7 @@ function ContactForm() {
                     </div>
                     <div className='input-section'>
                         <label htmlFor='email'>Email:</label>
-                        <input className="fill" type='email' defaultValue={email} onBlur={handleChange} name='email' placeholder='youremail@test.com' />
+                        <input className="fill" type='email' defaultValue={email} onBlur={handleChange} name='email' placeholder='YourEmail@test.com' />
                     </div>
                     <div className='message-section'>
                         <label htmlFor='message'>Message:</label>
@@ -71,7 +71,6 @@ function ContactForm() {
             </div>
             <Footer />
         </div>
-
     );
 }
 
