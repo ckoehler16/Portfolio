@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.218ddb09.css",
-    "main.js": "/portfolio/static/js/main.116b4219.js",
+    "main.css": "/portfolio/static/css/main.335b9993.css",
+    "main.js": "/portfolio/static/js/main.fbfef777.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/recipepantry.png": "/portfolio/static/media/recipepantry.73926f24ed20923f2acb.png",
-    "static/media/background5.jpg": "/portfolio/static/media/background5.f4724f4edfe2849466d1.jpg",
     "static/media/background4.jpg": "/portfolio/static/media/background4.e4f614ca1410c5878402.jpg",
     "static/media/bistrobox.png": "/portfolio/static/media/bistrobox.a630b441f96463baf814.png",
+    "static/media/profile2.jpeg": "/portfolio/static/media/profile2.0a2c504a39c4784e3594.jpeg",
     "static/media/fluteandfork.png": "/portfolio/static/media/fluteandfork.75af8110a76c6941da9d.png",
     "static/media/weatheroutlook.png": "/portfolio/static/media/weatheroutlook.9a964e9643e278b74ddf.png",
     "static/media/timedquiz.png": "/portfolio/static/media/timedquiz.b6019ec4b3843b281ec3.png",
     "static/media/notetaker.png": "/portfolio/static/media/notetaker.de290e9440a245f6b541.png",
+    "static/media/Resume2-2022.pdf": "/portfolio/static/media/Resume2-2022.6b581a91d28dd13c5211.pdf",
     "index.html": "/portfolio/index.html",
-    "main.218ddb09.css.map": "/portfolio/static/css/main.218ddb09.css.map",
-    "main.116b4219.js.map": "/portfolio/static/js/main.116b4219.js.map",
+    "main.335b9993.css.map": "/portfolio/static/css/main.335b9993.css.map",
+    "main.fbfef777.js.map": "/portfolio/static/js/main.fbfef777.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.218ddb09.css",
-    "static/js/main.116b4219.js"
+    "static/css/main.335b9993.css",
+    "static/js/main.fbfef777.js"
   ]
 }
